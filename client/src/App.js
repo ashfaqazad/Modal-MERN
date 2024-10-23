@@ -18,7 +18,7 @@ function App() {
           <Routes>
           <Route path='/' element={<Home/>} />
             {/* <Route path='/signup' element={<Signup />} /> */}
-            <Route path='/login' element={<Login />} /> {/* Corrected component syntax */}
+            {/* <Route path='/login' element={<Login />} /> Corrected component syntax */}
             <Route path='/clickbutton' element={<ClickButton />} /> {/* Corrected component syntax */}
           </Routes>
           
